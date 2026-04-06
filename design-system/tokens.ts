@@ -54,6 +54,10 @@ export const tokens = {
     "3xl": "1.875rem",
     "4xl": "2.25rem",
   },
+  fonts: {
+    sans: "Inter, system-ui, -apple-system, sans-serif",
+    mono: "JetBrains Mono, monospace",
+  },
 } as const;
 
 export type DesignTokens = typeof tokens;
